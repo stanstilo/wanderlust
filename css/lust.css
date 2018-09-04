@@ -1,0 +1,202 @@
+body{
+	background-color:#ededf0;
+	letter-spacing: 0.8px; 
+
+}
+.logo{
+	width:100px;
+	font-family: 'Roboto',sans-serif;
+	font-size: 12px;
+}
+.navigation-space{
+	margin-right: 12px;
+}
+.navigation_link{
+	float:right;
+}
+a{
+   font-family: 'Roboto',sans-serif;
+	font-weight: 500;
+	text-decoration: none;
+	color:#b6bcc8;
+	letter-spacing: 0.5px;
+}
+a:hover{
+	text-decoration: none;
+}
+h1{
+	font-family: 'playfair Display',serif;
+	font-weight: 400;
+	font-size:50px;
+	line-height: 72px;
+}
+
+.hero{
+	margin:10%;
+  font-family: 'playfair Display', serif;}
+
+.form_input{
+	height:40px;
+	padding:4% 0 3% 1.5%;
+	border-width:0.5px;
+	background-color: #ededf0;
+	border:0.5px  solid #b6bcc8;
+	font-size: 15px;
+	font-weight:100;
+}
+#form_place{
+	width: 38%;
+	border-radius: 4px 0 0 4px;
+	margin-right: -6px;
+}
+::-webkit-input-placeholder{
+     font-family: "Roboto",sans-serif;
+}
+#form_person{
+	margin-left: -6px;
+}
+#form_date{
+	margin-right: -6px;
+}
+.search{
+	font-size: 15px;
+	background-color:#4887e0;
+	border:0.5px solid #4887e0;
+	text-align:center;
+	border-radius:0 4px 4px 0;
+	color:#fff;
+	margin-left: -4px;
+	font-family: "Roboto",sans-serif;
+	height:40px;
+	padding:3.18% 6% 3.85% 1.5%;
+	border-width:0.5px;
+	
+}
+
+.pascal{
+	width:33.2%;
+	height:500px;
+	
+}
+.patrick{
+	width: 33.3%;
+	height:500px;
+	margin-left: -5px;
+}
+.image{
+	width:33.4%;
+	height:500px;
+	margin-left: -4px;
+}
+
+.wanderlust{
+	position: absolute;
+	top: -262px;
+	color:#fff;
+	left:0%;
+}
+
+.derlust{
+	position: absolute;
+	top: -265px;
+	color:#fff;
+	left:22%;
+}
+.lust{
+	position: absolute;
+	top: -263px;
+	color:#fff;
+	left:132px;
+}
+.album{
+	position:relative;
+}
+.featured{
+	color:#fff;
+   font-family: 'Roboto',sans-serif;
+   text-align: center;
+   font-size: 14px; 
+   margin-left: -5%;
+}
+.swim{
+	font-size: 40px;
+   color:#fff;
+   font-family: 'playfair Display',serif;
+   text-align: center;
+    line-height: 20px;
+    font-weight: 10;
+}
+
+.swimming{
+	line-height: 45px;
+	}
+
+.img_diameter{
+	width:18px;
+	margin-left: 40%;
+	padding-bottom: 20px;
+	
+}
+.Hawai_swim{
+     font-size: 14px;
+     line-height: 8px;
+     font-family: 'Roboto', sans-serif;
+}
+
+.featured_1{
+	color:#fff;
+   font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-left: -15%;
+}
+
+.cave{
+   font-size: 40px;
+   color:#fff;
+   font-family: 'playfair Display', serif;
+   text-align: center;
+    line-height: 20px;
+    font-weight: 10;
+}
+.cave_bond{
+	line-height: 45px;
+}
+.cave_las{
+	font-size: 14px;
+	line-height: 8px;
+      font-family: 'Roboto',sans-serif;
+}
+.img_di2{
+	width:18px;
+	margin-left: 40%;
+	padding-bottom: 20px;
+}
+.featured_2{
+	color:#fff;
+   font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-left: -10%;
+}
+.under{
+   font-size: 40px;
+   color:#fff;
+  font-family: 'playfair Display',serif;
+   text-align: center;
+    line-height: 20px;
+    font-weight: 10;
+}
+.deep_ocean{
+	font-size: 14px;
+	line-height: 8px;
+    font-family: 'Roboto',sans-serif;
+}
+.under_H{
+	line-height: 45px;
+}
+.img_di3{
+	width:18px;
+	margin-left: 40%;
+	padding-bottom: 20px;
+}
