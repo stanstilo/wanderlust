@@ -9,10 +9,7 @@ body{
 	font-size: 12px;
   margin:25px;
 }
-.navigation-space{
 
- 
-}
 .navigation_link{
 	float:right;
    margin-top:25px;
@@ -79,52 +76,109 @@ h1{
 
 .pascal{
 	width:33.2%;
-	height:500px;
-	
+	height:500px;	
+}
+@media screen and (max-width:991px){
+	.pascal{
+      width:50%;
+	}
+}
+@media screen and (max-width:767px){
+	.pascal{
+      width:100%;
+	}
 }
 .patrick{
 	width: 33.3%;
 	height:500px;
 	margin-left: -5px;
 }
+@media screen and (max-width:991px){
+	.patrick{
+      width:50%;
+	}
+}
+@media screen and (max-width:767px){
+	.patrick{
+      width:100%;
+	}
+}
 .image{
 	width:33.4%;
 	height:500px;
 	margin-left: -4px;
 }
+@media screen and (max-width:991px){
+	.image{
+      width:50%;
+	}
+}
+
+@media screen and (max-width:767px){
+	.image{
+      width:100%;
+	}
+}
+
 
 .wanderlust{
-	position: absolute;
-	top: -262px;
+    position:relative;
+    top:-400px; 
 	color:#fff;
-	left:0%;
 }
-
+@media screen and (max-width: 991px){
+	.wanderlust{
+      top:-800px;
+	}
+}
+@media screen and (max-width: 767px){
+	.wanderlust{
+      top:-1400px;
+	}
+}
 .derlust{
-	position: absolute;
-	top: -265px;
+	position:relative;
 	color:#fff;
-	left:22%;
+	top:-400px; 
+
+}
+@media screen and (max-width: 991px){
+	.derlust{
+      top:-800px;
+	}
+}
+@media screen and (max-width: 767px){
+	.derlust{
+      top:-1100px;
+	}
 }
 .lust{
-	position: absolute;
-	top: -263px;
-	color:#fff;
-	left:132px;
-}
-.album{
 	position:relative;
-}
-.featured{
 	color:#fff;
+	top:-400px; 
+	
+}
+@media screen and (max-width: 991px){
+	.lust{
+      top:-600px;
+	}
+}
+@media screen and (max-width: 767px){
+	.lust{
+      top:-900px;
+	}
+}
+
+.featured{
+	color:;
    font-family: 'Roboto',sans-serif;
    text-align: center;
    font-size: 14px; 
-   margin-left: -5%;
+   margin-left: ;
 }
 .swim{
 	font-size: 40px;
-   color:#fff;
+   color:;
    font-family: 'playfair Display',serif;
    text-align: center;
     line-height: 20px;
@@ -136,28 +190,32 @@ h1{
 	}
 
 .img_diameter{
-	width:18px;
-	margin-left: 40%;
+	width:23px;
+	margin-left:40%;
 	padding-bottom: 20px;
 	
 }
-.Hawai_swim{
+.hawai_swim{
+
+}
+.hawai_swim1{
      font-size: 14px;
      line-height: 8px;
      font-family: 'Roboto', sans-serif;
+
 }
 
 .featured_1{
-	color:#fff;
+	color:;
    font-family: 'Roboto',sans-serif;
     font-size: 14px;
     text-align: center;
-    margin-left: -15%;
+    margin-left:;
 }
 
 .cave{
    font-size: 40px;
-   color:#fff;
+   color:;
    font-family: 'playfair Display', serif;
    text-align: center;
     line-height: 20px;
@@ -166,14 +224,17 @@ h1{
 .cave_bond{
 	line-height: 45px;
 }
-.cave_las{
+
+.cave_las1{
 	font-size: 14px;
 	line-height: 8px;
-      font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto',sans-serif;
+  
 }
+
 .img_di2{
-	width:18px;
-	margin-left: 40%;
+	width:23px;
+	margin-left:40%;
 	padding-bottom: 20px;
 }
 .featured_2{
@@ -181,17 +242,17 @@ h1{
    font-family: 'Roboto',sans-serif;
     font-size: 14px;
     text-align: center;
-    margin-left: -10%;
+    margin-left: ;
 }
 .under{
    font-size: 40px;
-   color:#fff;
+   color:;
   font-family: 'playfair Display',serif;
    text-align: center;
     line-height: 20px;
     font-weight: 10;
 }
-.deep_ocean{
+.deep_ocean1{
 	font-size: 14px;
 	line-height: 8px;
     font-family: 'Roboto',sans-serif;
@@ -200,7 +261,8 @@ h1{
 	line-height: 45px;
 }
 .img_di3{
-	width:18px;
-	margin-left: 40%;
+	width:23px;
+	margin-left:40%;
 	padding-bottom: 20px;
+	color:#fff;
 }
